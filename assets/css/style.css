@@ -5,9 +5,10 @@
     height:113px;
     font-size: 45px;
     text-align: center;
-    padding: 20px 10px 25px 10px;
-    margin:0px 0px 0px 475px;
-    color: #fff;
+    padding: 20px;
+    bottom:0px;
+    margin:0px 0px 0px 468px;
+    color:#ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -33,6 +34,9 @@ li a {
     text-decoration: none;
     color: #777777;
 
+}
+a:hover{
+    color:red;
 }
 
 #links{
@@ -63,11 +67,10 @@ header{
 
 footer{
     background: #666666;
-    color: #fff;
+    color: #ccc;
     height:60px;
     position: fixed;
     text-align:center;
-    color:#ccc;
     padding: 20px 0;
     border-top: 6px solid #4aaaa5;
     width: 100%;
@@ -156,12 +159,22 @@ input[type=submit]{
     padding:10px 30px;
     
 }
+
+input[type=text],
+input[type=email],
+input[type=submit],
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .image{
     width:320px;
     float: left;
     overflow:auto;
     position: relative;
 
+}
+input[type=submit]:hover{
+    background: green;
 }
 
 .image img{
@@ -180,4 +193,5 @@ input[type=submit]{
     text-align: center;
     bottom: 20px;
     margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
